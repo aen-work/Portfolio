@@ -16,7 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: calc(100vh - 120px);
-    gap: 30px;
+    gap: 20px;
 }
 .container, .container-2, .contact {
     background: white;
