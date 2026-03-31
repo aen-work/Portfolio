@@ -5,6 +5,14 @@
     box-sizing: border-box;
 }
 
+header {
+    background: cadetblue;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
 body {
     background: rgb(143, 194, 194);
     font-family: "Quicksand", sans-serif;
@@ -79,74 +87,7 @@ body {
     margin-bottom: 10px;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 12px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 1rem;
-    transition: all 0.3s ease;
-    font-family: "Quicksand", sans-serif;
-    background: linear-gradient(135deg, #2c5aa0 0%, #1e3a5f 100%);
-  display: flex;
-  flex-direction: column;
-  width: 399px;
-  background: rgb(231, 233, 235);
-  padding: 20px;
-  border: gray 2px solid;
-  box-shadow: 2px 2px 5px rgba(2, 2, 2, 1);
-}
 
-#email, #subject, #message {
-    width: 300px;
-    padding: 10px;
-    border-radiu
-
-
-header {
-    background: linear-gradient(135deg, #2c5aa0 0%, #1e3a5f 100%);
-    color: white;
-    padding: 15px 30px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    position: sticky;
-    top: 0;
-    z-index: 100;
-}
-
-header nav ul {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    list-style: none;
-}
-
-header nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 1.1rem;
-    padding: 8px 15px;
-    border-radius: 5px;
-    transition: all 0.3s ease;
-}
-
-header nav ul li a:hover {
-    background: rgba(255, 255, 255, 0.2);
-    transform: translateY(-2px);
-}
-
-footer {
-    background: linear-gradient(135deg, #2c5aa0 0%, #1e3a5f 100%);
-    color: white;
-    padding: 20px;
-    text-align: center;
-    font-size: 1rem;
-    margin-top: auto;
-    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
-}
 
 li {
     list-style: none;
@@ -194,4 +135,10 @@ button:hover {
   color: #fff;
 }
 
+footer, .footer-content {
+    background: cadetblue;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
 }
